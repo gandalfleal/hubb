@@ -31,10 +31,14 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+end
+group :test, :production do
+  gem 'pg'
+end
+group :development do
   gem 'sqlite3'
 end
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
   gem 'unicorn'
 end
