@@ -12,7 +12,6 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'haml-rails'
-gem 'rake', '10.4.2'
 gem 'sendgrid'
 gem "font-awesome-rails"
 gem 'figaro'
