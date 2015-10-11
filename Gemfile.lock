@@ -266,6 +266,7 @@ DEPENDENCIES
   rails (= 4.1.6)
   rails_12factor
   rails_layout
+  rake
   rqrcode
   rspec-rails
   sass-rails (~> 4.0.3)
